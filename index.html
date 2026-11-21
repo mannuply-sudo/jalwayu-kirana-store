@@ -1,3 +1,50 @@
-<h1>jalwayu-kirana-store</h1>
-<p> sector47, Noida </p>
-<p>All kinds ok kitchen ablable here</p>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jalwayu Kirana Store - Sector 47, Noida</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#fff7ed}
+.top{background:#16a34a;color:white;padding:18px;text-align:center}
+.top h1{font-size:26px}
+.offer{background:#facc15;text-align:center;padding:10px;font-weight:bold}
+.box{padding:15px}
+.card{background:white;border-radius:12px;padding:14px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.price{color:#16a34a;font-weight:bold;font-size:18px}
+.btn{display:block;background:#22c55e;color:white;text-align:center;padding:14px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:18px;margin:10px 0}
+.call{background:#111}
+.footer{text-align:center;padding:15px;color:#666;font-size:13px}
+input{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="top"><h1>🛒 Jalwayu Kirana Store</h1><p>Sector 47, Noida | Fresh • Sasta • Fast Delivery</p><p>⭐ 4.9 | 30 Min Delivery | Free Home Delivery ₹200+</p></div>
+<div class="offer">🎉 Aaj Ka Offer: ₹500+ pe 5% OFF | Dal + Chawal Combo ₹149</div>
+<div class="box">
+<h2>🔥 Aaj Ke Best Deals</h2>
+<div class="card"><div><b>🧅 Pyaz - 1 Kg</b><br><span>Fresh Stock</span></div><div class="price">₹28</div></div>
+<div class="card"><div><b>🥔 Aloo - 1 Kg</b></div><div class="price">₹22</div></div>
+<div class="card"><div><b>🍅 Tamatar - 1 Kg</b></div><div class="price">₹25</div></div>
+<h2>🌾 Dal, Chawal, Aata</h2>
+<div class="card"><div><b>Arhar Dal - 1 Kg</b></div><div class="price">₹145</div></div>
+<div class="card"><div><b>Basmati Chawal - 1 Kg</b></div><div class="price">₹95</div></div>
+<div class="card"><div><b>Aashirvaad Aata - 5 Kg</b></div><div class="price">₹235</div></div>
+<div class="card"><div><b>Fortune Oil - 1 Litre</b></div><div class="price">₹135</div></div>
+<h2>🥛 Dairy & Daily</h2>
+<div class="card"><div><b>Amul Doodh - 500ml</b></div><div class="price">₹28</div></div>
+<div class="card"><div><b>Amul Butter - 100g</b></div><div class="price">₹58</div></div>
+<div class="card"><div><b>Anda - 12 Pcs</b></div><div class="price">₹78</div></div>
+<h2>📝 Apna Order Likho</h2>
+<input id="order" placeholder="Jaise: 2 Kg Pyaz, 1 Kg Dal...">
+<a class="btn" onclick="send()" href="#">🟢 WhatsApp Pe Order Bhejo</a>
+<a class="btn call" href="tel:9876543210">📞 Call Karo</a>
+<p style="text-align:center;margin-top:10px">⏰ Subah 7 Baje - Raat 10 Baje Khula Hai</p>
+</div>
+<div class="footer">Jalwayu Kirana Store • Sector 47, Noida • Made by Aditya</div>
+<script>
+function send(){var t=document.getElementById('order').value||'Mujhe kirana order karna hai';window.open('https://wa.me/919876543210?text='+encodeURIComponent('Namaste Jalwayu Store! Mera Order: '+t),'_blank');}
+</script>
+</body>
+</html>
